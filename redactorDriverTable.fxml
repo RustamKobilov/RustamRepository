@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="406.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.redactorDriverTableController">
+    <children>
+        <TableView fx:id="tableDriver" prefHeight="316.0" prefWidth="406.0">
+            <columns>
+                <TableColumn fx:id="nameDriver" prefWidth="408.0" text="Name" />
+            </columns>
+        </TableView>
+        <Button fx:id="deleteDriver" layoutX="21.0" layoutY="336.0" mnemonicParsing="false" text="DeleteDriver" />
+        <Button fx:id="AddDriver" layoutX="119.0" layoutY="336.0" mnemonicParsing="false" text="Add Driver" />
+    </children>
+</AnchorPane>

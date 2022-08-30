@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.redactordriverController">
+    <children>
+        <Label layoutX="63.0" layoutY="14.0" prefHeight="20.0" prefWidth="274.0" text="Введите фамилию и инициалы  водителя">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font>
+        </Label>
+        <TextField fx:id="NameDriver" layoutX="107.0" layoutY="78.0" promptText="Ожог Ю.В.">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font>
+        </TextField>
+        <Button fx:id="SaveDriver" layoutX="109.0" layoutY="130.0" mnemonicParsing="false" text="Добавить водителя в базу">
+            <font>
+                <Font name="Constantia" size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="144.0" layoutY="49.0" prefHeight="20.0" prefWidth="112.0" text="прим. Ожог Ю.В." textFill="#a19090">
+            <font>
+                <Font name="Constantia Italic" size="14.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

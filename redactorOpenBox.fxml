@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="469.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.redactorOpenBoxController">
+    <children>
+        <TableView fx:id="tableList" layoutX="6.0" layoutY="38.0" prefHeight="352.0" prefWidth="718.0">
+            <columns>
+                <TableColumn fx:id="DateBox" prefWidth="76.0" text="Date" />
+                <TableColumn fx:id="DriverBox" prefWidth="121.0" text="Driver" />
+                <TableColumn fx:id="CarBox" prefWidth="103.0" text="Avto" />
+                <TableColumn fx:id="StartKMBox" prefWidth="100.0" text="StartKM" />
+                <TableColumn fx:id="FinishKMBox" prefWidth="95.0" text="FinishKM" />
+                <TableColumn fx:id="StartOilBox" prefWidth="79.0" text="StartOil" />
+                <TableColumn fx:id="FinishOilBox" minWidth="0.0" prefWidth="71.0" text="FinishOil" />
+                <TableColumn fx:id="AddOilBox" maxWidth="200.0" prefWidth="72.0" text="AddOil" />
+            </columns>
+        </TableView>
+        <Button fx:id="PrintListButton" layoutX="224.0" layoutY="420.0" mnemonicParsing="false" text="PrintList" />
+        <Button fx:id="addListButton" layoutX="126.0" layoutY="420.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="69.0" text="AddList" />
+        <Button fx:id="deleteList" layoutX="30.0" layoutY="420.0" mnemonicParsing="false" text="Delete list" />
+    </children>
+</AnchorPane>
